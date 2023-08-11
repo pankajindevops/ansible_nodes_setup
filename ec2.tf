@@ -24,6 +24,7 @@ resource "aws_instance" "ec2-instance" {
     # command = "echo `date +"%Y-%m-%d %T"` >> public-ip.txt"
   }
 
+  # tags can also be setup as a Variable
   	tags = {
 		
     Name = "ec2 instance with jenkins"
